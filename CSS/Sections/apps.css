@@ -1,0 +1,28 @@
+.apps{
+    padding-top: 115px;
+    padding-bottom: 133px;
+}
+.row-apps{
+    display: flex;
+    gap: 102px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 30px;
+}
+.row-apps img{
+    width: 665px;
+    flex-grow: 1;
+}
+.text-apps h2{
+    font-size: 36px;
+    line-height: calc(48 / 36);
+    margin-bottom: 31px;
+}
+.text-apps p{
+    font-size: 18px;
+    line-height: calc(30 / 18);
+    color: #7D7987;
+    margin-bottom: 40px;
+}
+

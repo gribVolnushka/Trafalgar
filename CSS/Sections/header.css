@@ -1,0 +1,27 @@
+header{
+    padding-top: 56px;
+}
+header > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header span{
+   color: #1F1534;
+}
+.list-header{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.list-header li a{
+    font-size: 18px;
+    line-height: calc(23 / 18);
+    color: #1F1534;
+    opacity: 0.5;
+}
+.list-header li:first-child a{
+    font-weight: 700;
+    color: #1F1534;
+    opacity: 1;
+}

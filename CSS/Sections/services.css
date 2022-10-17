@@ -1,0 +1,67 @@
+.services{
+    padding-top: 81px;
+    padding-bottom: 111px;
+    background-image: url("../../Image/background-services.png"),
+                      url("../../Image/background-ellipse.png");
+    background-repeat: no-repeat;
+    background-position: left center, right 401px center;
+    background-size: 937px, 131px;
+}
+.container{
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services h2{
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 33px;
+}
+.services p{
+    color: #7D7987;
+    width: 90%;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.65;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+.list-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+    margin-bottom: 69px;
+}
+.list-services li{
+    background-color: #FFFFFF;
+    width: 350px;
+    padding-top: 47px;
+    padding-left: 37px;
+}
+.list-services img{
+    margin-bottom: 22px;
+    height: 90px;
+}
+.list-services h3{
+    color: #000000;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 2.3;
+    margin-bottom: 1px ;
+}
+.list-services p{
+    color: #7D7987;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 300;
+    margin-bottom: 46px;
+    width: 261px;
+}
+.button-services{
+    display: flex;
+    justify-content: center;
+}
