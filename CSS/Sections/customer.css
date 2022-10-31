@@ -1,24 +1,25 @@
-.customer{
+.customer {
     padding-top: 133px;
     padding-bottom: 113px;
     background-image: url("../../Image/background-ellipse.png");
     background-repeat: no-repeat;
-    background-position: left 400px bottom 150px ;
+    background-position: left 400px bottom 150px;
     background-size: 131px;
 
 }
-.background{
+
+.customer__container {
     background-image: url("../../Image/backgroung-ellipse-white.png"), linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
     background-repeat: no-repeat;
     background-position: right -50px top -20px, 100%;
     background-size: 131px, cover;
     border-radius: 24px;
-    padding-top: 64px;
-    padding-bottom: 89px;
+    padding: 64px 118px 89px 117px;
     color: #FFFFFF;
     position: relative;
 }
-.customer h2{
+
+.customer__title {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(48 / 36);
@@ -26,7 +27,8 @@
     color: #FFFFFF;
     margin-bottom: 45px;
 }
-.underline-white::after{
+
+.customer__title::after {
     content: " ";
     width: 56px;
     height: 2px;
@@ -34,35 +36,45 @@
     display: block;
     margin-top: 26px;
 }
-.row-customer{
+
+.customer__row {
     display: flex;
     gap: 110px;
     align-items: center;
     justify-content: center;
 }
-.info-customer{
-    display: flex;
-    column-gap: 30px;
-    align-items: center;
+
+.customer__content {
+    width: 385px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-.info-customer img{
-    border-radius: 50% ;
+
+.customer__image {
+    border-radius: 50%;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
-.name-customer h3{
+
+.customer__subtitle {
+    align-self: end;
     font-size: 22px;
-    line-height: calc(48 / 22);
-    margin-bottom: 2px;
+    line-height: calc(33 / 22);
 }
-.name-customer p{
+
+.customer__text {
     font-size: 18px;
-    line-height: calc(48 / 18);
+    line-height: calc(22 / 18);
+    color: rgba(255, 255, 255, 0.85);
 }
-.text-customer{
+
+.customer__quote {
     width: 420px;
     font-size: 19px;
     line-height: calc(30 / 19);
 }
-.elements{
+
+.customer__elements {
     display: flex;
     align-items: center;
     gap: 91px;
@@ -70,11 +82,13 @@
     bottom: -53px;
     left: 393px;
 }
-.row{
+
+.customer__wrapper-figures {
     display: flex;
     gap: 18px;
 }
-.circle{
+
+.customer__figure {
     height: 10px;
     width: 10px;
     background-color: #5B9BF3;
@@ -82,7 +96,8 @@
     border-radius: 50%;
     display: block;
 }
-.circle:hover{
+
+.customer__figure:hover {
     opacity: 1;
 }
 

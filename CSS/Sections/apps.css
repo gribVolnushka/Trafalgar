@@ -1,8 +1,9 @@
-.apps{
+.apps {
     padding-top: 115px;
     padding-bottom: 133px;
 }
-.row-apps{
+
+.apps__row {
     display: flex;
     gap: 102px;
     justify-content: space-between;
@@ -10,16 +11,19 @@
     position: relative;
     left: 30px;
 }
-.row-apps img{
+
+.apps__image {
     width: 665px;
     flex-grow: 1;
 }
-.text-apps h2{
+
+.apps__title {
     font-size: 36px;
     line-height: calc(48 / 36);
     margin-bottom: 31px;
 }
-.text-apps p{
+
+.apps__text {
     font-size: 18px;
     line-height: calc(30 / 18);
     color: #7D7987;

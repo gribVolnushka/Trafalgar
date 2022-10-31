@@ -1,26 +1,27 @@
-header{
+.header {
     padding-top: 56px;
 }
-header > div{
+
+.header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header span{
-   color: #1F1534;
-}
-.list-header{
+
+.header__list {
     display: flex;
     gap: 40px;
     align-items: center;
 }
-.list-header li a{
+
+.header__link {
     font-size: 18px;
     line-height: calc(23 / 18);
     color: #1F1534;
     opacity: 0.5;
 }
-.list-header li:first-child a{
+
+.header__item:first-child .header__link {
     font-weight: 700;
     color: #1F1534;
     opacity: 1;
