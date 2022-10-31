@@ -21,8 +21,9 @@
     opacity: 0.5;
 }
 
-.header__item:first-child .header__link {
+.header__link--first {
     font-weight: 700;
     color: #1F1534;
     opacity: 1;
+    align-self: center;
 }
