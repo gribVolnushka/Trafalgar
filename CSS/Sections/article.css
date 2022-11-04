@@ -9,6 +9,26 @@
     background-size: 131px, 780px, 131px;
 }
 
+@media screen and (max-width: 1350px) {
+    .article {
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .article {
+        padding-top: 50px;
+        background-image: unset;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .article {
+        padding-top: 15px;
+    }
+}
+
 .article__title {
     color: #000000;
     font-weight: 700;
@@ -18,11 +38,41 @@
     text-align: center;
 }
 
+@media screen and (max-width: 1350px) {
+    .article__title {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .article__title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+}
+
 .article__list {
     display: flex;
     justify-content: space-between;
     margin-bottom: 69px;
 }
+
+@media screen and (max-width: 1350px) {
+    .article__list {
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .article__list {
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+}
+
 
 .article__item {
     background-color: #FFFFFF;
@@ -32,12 +82,39 @@
     overflow: hidden;
 }
 
+@media screen and (max-width: 1350px) {
+    .article__item {
+        width: 31%;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .article__item {
+        width: 100%;
+        border-radius: 0;
+        background-color: beige;
+    }
+}
+
 .article__image {
     width: 100%;
 }
 
 .article__content-item {
     padding: 25px 5px 35px 32px;
+}
+
+@media screen and (max-width: 1350px) {
+    .article__content-item{
+        padding: 6%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .article__content-item {
+        padding: 10px 15px;
+    }
 }
 
 .article__subtitle {
@@ -49,6 +126,13 @@
     margin-bottom: 12px;
 }
 
+@media screen and (max-width: 790px) {
+    .article__subtitle {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+}
+
 .article__text {
     color: #7D7987;
     width: 266px;
@@ -56,6 +140,13 @@
     font-size: 16px;
     line-height: 1.7;
     margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1350px) {
+    .article__text {
+        margin-bottom: 10px;
+        width: 100%;
+    }
 }
 
 .article__link {

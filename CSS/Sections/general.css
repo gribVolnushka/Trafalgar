@@ -12,10 +12,46 @@ body {
     margin-right: auto;
 }
 
+@media screen and (max-width: 1350px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .container {
+        width: 90%;
+    }
+}
+
 .container-lg {
     width: 1273px;
     margin-right: auto;
     margin-left: auto;
+}
+
+@media screen and (max-width: 1350px) {
+    .container-lg {
+        width: 72%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .container-lg {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .container {
+        width: 90%;
+    }
 }
 
 .title__underline {
@@ -32,6 +68,19 @@ body {
     margin-top: 26px;
 }
 
+@media screen and (max-width: 1350px) {
+    .title__underline::after{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1350px) {
+    .title__underline::after{
+        margin-top: 10px;
+    }
+}
+
 .title__center::after {
     margin-left: auto;
     margin-right: auto;
@@ -43,11 +92,23 @@ body {
     align-items: center;
 }
 
+@media screen and (max-width: 790px) {
+    .logo {
+        gap: 6px;
+    }
+}
+
 .logo__text {
     color: #1F1534;
     font-size: 24px;
     line-height: calc(30 / 24);
     font-weight: 700;
+}
+
+@media screen and (max-width: 790px) {
+    .logo__text {
+        font-size: 20px ;
+    }
 }
 
 .logo__icon {
@@ -62,6 +123,14 @@ body {
     background-color: #458FF6;
 }
 
+@media screen and (max-width: 790px) {
+    .logo__icon {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+}
+
 .button {
     text-align: center;
     min-width: 200px;
@@ -73,5 +142,13 @@ body {
     background-color: #FFFFFF;
     color: #458FF6;
     padding: 13px;
+}
+
+@media screen and (max-width: 790px) {
+    .button {
+        min-width: 170px;
+        font-size: 16px;
+        padding: 9px;
+    }
 }
 
