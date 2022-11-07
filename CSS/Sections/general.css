@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Mulish', sans-serif;
+    position: relative;
 }
 
 .container {
@@ -38,7 +39,7 @@ body {
 
 @media screen and (max-width: 1350px) {
     .container-lg {
-        width: 72%;
+        width: 79%;
     }
 }
 
@@ -95,6 +96,7 @@ body {
 @media screen and (max-width: 790px) {
     .logo {
         gap: 6px;
+        justify-content: flex-start;
     }
 }
 
@@ -107,7 +109,7 @@ body {
 
 @media screen and (max-width: 790px) {
     .logo__text {
-        font-size: 20px ;
+        font-size: 26px ;
     }
 }
 
@@ -125,9 +127,10 @@ body {
 
 @media screen and (max-width: 790px) {
     .logo__icon {
-        width: 35px;
-        height: 35px;
-        font-size: 20px;
+        width: 45px;
+        height: 45px;
+        font-size: 30px;
+        padding:  3px 14px;
     }
 }
 
